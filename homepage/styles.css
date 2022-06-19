@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+header{
+    background: linear-gradient(#fce9da, #ffcec7, #ffd0a6);
+}
+
+/* navigation bar */
+.navbar {
+    padding: 0 0 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: lighter;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+/* Download buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* title img */
+.hero-img {
+    width: 100%;
+}
+
+/* features section */
+/* feature */
+#features {
+    background-color: #fff;
+    position: relative;
+}
+.feature {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature>h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature>p {
+    color: #8f8f8f;
+}
+
+/* features icon */
+.feature-icon {
+    padding: 1rem;
+    /* font-size: 5rem; */
+    color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background: linear-gradient(#fce9da, #ffcec7, #ffd0a6);
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(45);
+}
+
+#testimonials-carousel {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+/* Pricing Section */
+#pricing {
+    text-align: center;
+    padding: 7% 3%;
+}
+
+.card {
+    margin: 3% 7%;
+}
+
+.card-header {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+/* CTA section */
+#cta {
+    text-align: center;
+    padding: 8% 8% 3% 0;
+    background: linear-gradient(#fce9da, #ffcec7, #ffd0a6);
+    color: #fff;
+}
+
+.cta-btn {
+    margin: 5% 1%;
+}
+
+/* Footer Section */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer>p{
+    padding: 1%;
+}
+
+.foot>i {
+    margin: 0.5%;
+}
+
+/* Responsive for tablet size viewport */
+
+@media (max-width : 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .download-btn {
+        margin: 10% auto;
+    }
+
+    .title-img {
+        transform: rotate(0);
+        position: static;
+    }
+
+    #cta>h1 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+}
